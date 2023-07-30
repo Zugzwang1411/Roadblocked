@@ -37,16 +37,8 @@ contract Ride {
         public
         view
         returns (
-            address,
-            address,
-            string[] memory,
-            string[] memory,
-            bytes32,
-            bool,
-            bool,
-            bool
-        )
-    {
+            address,address,string[] memory,string[] memory,bytes32, bool,bool,bool )
+                {
         return (
             riderAddr,
             driverAddr,
